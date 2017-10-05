@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  name = "github.com/urfave/cli"
+  packages = ["."]
+  revision = "cfb38830724cc34fedffe9a2a29fb54fa9169cd1"
+  version = "v1.20.0"
+
+[[projects]]
   branch = "master"
   name = "rsc.io/qr"
   packages = [".","coding","gf256"]
@@ -10,6 +16,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b705d306da5a78e76b7ff289744770eef56328a4f0d1c615c1a233d056283651"
+  inputs-digest = "64952c0daab6afc61678dfb6f3aea8bd15dfe76020feb6ab8714cbd0a6b50102"
   solver-name = "gps-cdcl"
   solver-version = 1
